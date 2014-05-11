@@ -1,0 +1,822 @@
+<!DOCTYPE html> <html class="ltr" dir="ltr" lang="fr-FR"> <head> <title>PREVISIONS METEO FRANCE - Site Officiel de Météo-France - Prévisions gratuites à 10 jours sur la France et le monde</title> <meta http-equiv="content-type" content="text/html; charset=UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <meta name="author" content="Meteo France"> <meta name="fragment" content="!"> <meta name="description" content="Prévisions météo officielles et gratuites de Météo-France pour toutes les villes de France, l'outre mer, le monde, les plages, la montagne et la mer."> <meta name="keywords" content=""> <link type="text/css" rel="stylesheet" href="/mf3-base-theme/css/main.css?1.72"> <link type="text/css" rel="stylesheet" href="/mf3-base-theme/css/mods.css?1.72"> <!--[if (lte IE 9)]><script src="/mf3-base-theme/js/console-ie.js?1.72"></script><![endif]--> <script type="text/javascript">/*<![CDATA[*/if(!window.ready){window.ready=[]}var mfv3Ready=function(c,d){if(c){d?ready.unshift(c):ready.push(c)}else{for(var a=0,b=ready.length;a<b;a++){ready[a]()}ready=[]}};/*]]>*/</script> <script src="/mf3-base-theme/js/lib/modernizr.js"></script> <script type="text/javascript">/*<![CDATA[*/var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-44214041-1"]);_gaq.push(["_trackPageview"]);(function(){var b=document.createElement("script");b.type="text/javascript";b.async=true;b.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)})();/*]]>*/</script> </head> <!--[if IE 9]><body class="ie ie9"><![endif]--> <!--[if IE 8]><body class="ie ie8"><![endif]--> <!--[if IE 7]><body class="ie ie7"><![endif]--> <!--[if (gt IE 7)|!(IE)]> <body> <![endif]--> <header> <div class="header" role="banner"> <div class="header-1-wrapper"> <ul id="acc-links"> <li><a href="#a_nav">Menu</a></li> <li><a href="#main-content">Contenu</a></li> <li><a href="/plan-du-site">Plan du site</a></li> </ul> <div class="header-1" id="a_nav"> <div class="header-logo-wrapper"> <a href="/accueil"><img src="http://www.meteofrance.com/mf3-base-theme/images/contents/meteo-france.png" class="header-logo" alt="Météo-France"/></a> </div> <div class="change-car-size display-none"> <button type="button" id="change-car-size-plus"><img src="http://www.meteofrance.com/mf3-base-theme/images/change-car-size-plus.png" title="Agrandir la taille des caractères" alt="Agrandir la taille des caractères"/></button> <button type="button" id="change-car-size-minus"><img src="http://www.meteofrance.com/mf3-base-theme/images/change-car-size-minus.png" title="Réduire la taille des caractères" alt="Agrandir la taille des caractères"/> </button> </div> <nav> <div class="sites-mf"> <div class="sites-mf-content"> <a href="#" class="sites-mf-trigger"><span>Autres sites</span></a> <div class="sites-mf-list" style="display: none;"> <div class="sites-mf-list-blocs"> <div class="sites-mf-list-bloc"> <ul> <li class="first"> <span class="title"> <a data-bypass href='http://vigilance.meteofrance.com' target="_blank" rel="nofollow"> Vigilance météorologique</a> </span> </li> <li> <span class="title"><a data-bypass href='http://education.meteofrance.fr/' target="_blank" rel="nofollow">Éducation</a></span> <p>Des contenus pédagogiques validés et adaptés aux programmes d'enseignement destinés aux enseignants et scolaires.</p> </li> <li class="last"> <span class="title">Sites internet en Outre-mer</span> <div class="custom-select-container custom-select-container-style-3 select-style-3"> <label for="form-all-ite-sites-internet" class="hidden">Choisir un site outre-mer</label> <select class="select-style-3 replaced" name="selectSitesInternet" id="form-all-ite-sites-internet"> <option value='http://www.meteo.gp/'>Météo-France Antilles-Guyane </option> <option value='http://www.meteo.fr/temps/domtom/La_Reunion/meteoreunion2/'>Météo-France La Réunion</option> <option value='http://www.meteo.nc/'>Météo-France Nouvelle-Calédonie </option> <option value='http://www.meteo.fr/meteonet/temps/monde/prev/outremer/mayotte.htm'>Météo-France Mayotte</option> <option value='http://www.meteo.pf/'>Météo-France Polynésie</option> </select> <span aria-hidden="true" class="custom-select"><span><span>Sélectionner un site</span></span></span> </div> </li> </ul> </div> <div class="sites-mf-list-bloc"> <ul> <li class="first"> <span class="title"><a data-bypass href='https://aviation.meteo.fr/login.php' target="_blank" rel="nofollow">Aviation</a></span> </li> <li> <span class="title"><a data-bypass href='http://www.cnrm.meteo.fr/' target="_blank" rel="nofollow">Centre de recherches de Météo-France</a></span> </li> <li> <span class="title"><a data-bypass href='http://www.enm.meteo.fr/' target="_blank" rel="nofollow">Ecole nationale de la météorologie</a></span> </li> <li> <span class="title"><a data-bypass href='http://www.drias-climat.fr/' target="_blank" rel="nofollow">DRIAS les futurs du climat</a></span> </li> <li class="last"> <span class="title"><a data-bypass href='http://pluiesextremes.meteo.fr/' target="_blank" rel="nofollow">Pluies extrêmes</a></span> </li> </ul> </div> <div class="sites-mf-list-bloc"> <ul> <li class="first"> <span class="title"><a data-bypass href='http://hal-meteofrance.archives-ouvertes.fr/' target="_blank" rel="nofollow">HAL-Météo-France</a></span> </li> <li> <span class="title"><a data-bypass href='http://www.meteo-spatiale.fr/src/accueil.php' target="_blank" rel="nofollow">Centre de météorologie spatiale</a></span> </li> <li> <span class="title"><a data-bypass href='http://www.veilleurs-du-temps.fr/pages/accueil.php' target="_blank" rel="nofollow">Veilleurs du temps</a></span> </li> <li> <span class="title"><a data-bypass href='https://meteofrance.achatpublic.com/sdm/ent/gen/index.do' target="_blank" rel="nofollow">Marchés publics</a></span> </li> <li class="last"> <span class="title"><a data-bypass href='http://bibliotheque.meteo.fr/' target="_blank" rel="nofollow">Portail documentaire</a></span> </li> </ul> </div> </div> <a class="close btn-1" title="Fermer la zone Plus" href="#"><span>Fermer</span></a> </div> </div> </div> <div class="nav" id="nav"> <ul> <li class="active one-line"><a data-bypass href='http://www.meteofrance.com/'><span>Prévisions</span></a></li> <li><a data-bypass href='http://www.meteofrance.fr/'><span>Météo-France<br/>et vous</span></a></li> <li class="space"><span>&nbsp;</span></li> <li><a data-bypass href='https://donneespubliques.meteofrance.fr/'><span>Données<br/>publiques</span></a></li> <li><a data-bypass href='https://professionnel.meteofrance.com/'><span>Professionnels<br/>et collectivités</span></a> </li> <li class="last"><a data-bypass href='https://particulier.meteofrance.com/'><span>Boutique<br/>particuliers</span></a> </li> </ul> </div> </nav> </div> <!--/header-1--> </div> <!--/header-1-wrapper--> <div class="header-2-wrapper"> <div class="header-2"> <div id="topzone" class="header-ad"> <noscript><a href="http://mfr.meteofrance.com/adlink/3.0/1307/3736965/0/225/ADTECH;loc=300;" target="_blank"><img src="http://mfr.meteofrance.com/adserv/3.0/1307/3736965/0/225/ADTECH;loc=300;" border="0" width="728" height="90"></a></noscript> </div> <nav> <div class="nav-2" id="nav-2"> <ul> <li class="active"> <a href="http://www.meteofrance.com/accueil" data-bypass><span>Accueil</span></a> </li> <li> <a href="http://www.meteofrance.com/previsions-meteo-france" data-bypass><span>France</span></a> </li> <li> <a href="http://www.meteofrance.com/previsions-meteo-montagne" data-bypass><span>Montagne</span></a> </li> <li> <a href="http://www.meteofrance.com/previsions-meteo-plages" data-bypass><span>Plages</span></a> </li> <li> <a href="http://www.meteofrance.com/previsions-meteo-marine" data-bypass><span>Marine</span></a> </li> <li> <a href="http://www.meteofrance.com/previsions-meteo-monde" data-bypass><span>Monde</span></a> </li> <li> <a href="http://www.meteofrance.com/climat" data-bypass><span>Climat</span></a> </li> <li> <a href="http://www.meteofrance.com/video" data-bypass><span>Vidéo</span></a> </li> <li> <a href="http://www.meteofrance.com/trafic-routier" data-bypass><span>Trafic routier</span></a> </li> <li> <a href="http://www.meteofrance.com/meteo-infos" data-bypass><span>Météo Infos</span></a> </li> </ul> <a href="/mobiles" class="nav-smartphone" data-bypass><img src="http://www.meteofrance.com/mf3-base-theme/images/header/iptv.png" title="Smartphone" alt="Smartphone" /></a> <a href="/iptv" class="nav-iptv" data-bypass><span>IPTV</span></a> </div> <div class="nav-2 level2" id="nav-2-level2"> <ul> </ul> </div> </nav> </div> <!--/header-2--> </div> <!--/header-2-wrapper--> </div> </header> <div class="site"> <div class="page"> <div class="columns-2" id="main-content" role="main"> <div class="portlet-layout"> <div id="column-1" class="aui-w70 portlet-column portlet-column-first"> <div class="portlet-dropzone page-body portlet-column-content portlet-column-content-first" id="layout-column_column-1"> <div id="p_p_id_vigilance_WAR_mf3rpcportlet_INSTANCE_sRYOJAnCGJ7Y_"> <div class="layout-row"> <div class="mod-vigilance"> <a class="mod-vigilance-carte" target="_blank" href="http://vigilance.meteofrance.com" data-bypass><img alt="Carte de vigilance" class="mod-vigilance-border-vert" src="/integration/sim-portail/generated/integration/img/vigilance/mn.gif" /></a> <div class="mod-vigilance-body"> <div class="mod-vigilance-vert"> <span>Vigilance Météo</span> <p>Phénomènes dangereux</p> <a data-bypass class="mod-vigilance-voir-carte" target="_blank" href="http://vigilance.meteofrance.com">&lt;&lt;&lt; Consultez la carte</a> </div> <div class="mod-vigilance-other-links"> <a data-bypass target="_blank" href="http://www.vigicrues.gouv.fr/">Vigilance «crues»</a> <a data-bypass target="_blank" href="http://www.bison-fute.equipement.gouv.fr/diri/Accueil.do">Bison futé</a> </div> </div> </div> <div class="mod-recherche"> <div role="search" class="mod-recherche-form"> <form method="post" action="/recherche/resultats" id="searchForm"> <div class="form-row"> <input type="hidden" name="facet" value="previsions">
+				<input type="hidden" name="lieuId" value="">
+				<input type="hidden" name="lieuType" value="">
+				<label class="hidden" for="search-type">Type de recherche</label>
+				<div class="custom-select-container">
+					<select id="search-type" name="search-type" tabindex="0">
+											<option value="previsions">Prévisions</option>
+											<option value="pluie">Pluie</option>
+											<option value="plages">Plages</option>
+											<option value="montagne">Montagne</option>
+											<option value="monde">Monde</option>
+											<option value="climat_france">Climat</option>
+											<option value="marine">Marine</option>
+										</select>
+					<span aria-hidden="true" class="custom-select"><span><span>Prévisions</span></span></span>
+				</div>
+				
+				<input type="search" placeholder="Ville, code postal, pays..." id="search" name="query" value="" class="search-input" tabindex="0" /> <input type="image" alt="Lancer la recherche" src="/mf3-base-theme/images/search.png" tabindex="1" /> </div> </form> </div> <div class="mod-recherche-fav"> <div class="mod-recherche-fav-wrapper"> <div class="mod-recherche-fav-content"> <a href="" class="link etat-not-active" title="Déplier la zone Favoris Météo"> <span>Favoris Météo &nbsp;</span><div class="totalFavs"></div> </a> <a href="" class="link etat-active" title="Replier la zone Favoris Météo"> <span>Favoris Météo &nbsp;</span><div class="totalFavs"></div> </a> <div class="detailFavorisMeteo" id="mod-content-fav"></div> </div> </div> </div> </div> <div class="clearer">&nbsp;</div> <script type="text/javascript">/*<![CDATA[*/mfv3Ready(function(){var a=[];a.push({name:"previsions",label:"Prévisions",placeholder:"Ville, code postal, pays...",suggest:["VILLE_FRANCE","REG_FRANCE","DEPT_FRANCE","PAYS","VILLE_MONDE"],prefetch:true});a.push({name:"pluie",label:"Pluie",placeholder:"Ville, code postal...",suggest:["VILLE_FRANCE"],prefetch:true});a.push({name:"plages",label:"Plages",placeholder:"Station, code postal...",suggest:["PLAGE_FRANCE"]});a.push({name:"montagne",label:"Montagne",placeholder:"Station...",suggest:["VILLE_MONTAGNE"]});a.push({name:"monde",label:"Monde",placeholder:"Ville, pays, continent...",suggest:["VILLE_MONDE","PAYS","CONTINENT"]});a.push({name:"climat_france",label:"Climat",placeholder:"Ville, code postal...",suggest:["STATION_CLIM_FR","VILLE_FRANCE"]});a.push({name:"marine",label:"Marine",placeholder:"Port, zone côtière...",suggest:["VILLE_FRANCE","PAYS"]});var b=a[0];window.Favs={};Favs.home="mf3-rpc-portlet";require.config({paths:{home:"/mf3-rpc-portlet"}});require(["/mf3-rpc-portlet/js/portlet/favs.js"],function(){require(["jquery","home/js/view/favs-home-view"],function(f,d){new d({root:"#mod-content-fav"});var e=f("form#searchForm");var g=function(i,k){var j={name:k.name,valueKey:"nomAffiche",remote:"/"+Favs.home+"/rest/lieu/facet/"+k.name+"/search/%QUERY",limit:12};if(k.prefetch){j.prefetch={url:"/mf3-rpc-portlet/js/datas/prefetch_locations.json",ttl:2592000000}}i.typeahead(j)};var h=f("input#search");f("select#search-type").customSelect();f("select#search-type").on("change",function(l){var k=f(l.currentTarget).val();for(var j=0;j<a.length;j++){if(a[j].name===k){b=a[j];break}}h.val("");h.attr("placeholder",b.placeholder);h.typeahead("destroy");g(h,b);f("input[name='facet']").val(b.name)});g(h,b);var c=function(j,i){e.find("input[name='lieuId']").val(i.id);e.find("input[name='lieuType']").val(i.type);e.submit()};h.on("typeahead:selected",c);h.on("typeahead:autocompleted",c);f(".mod-resulats-recherche-suggest").click(function(j){var i=f(j.target);h.val(i.html());e.submit()});h.on("keypress",function(i){if(i.keyCode==13){h.typeahead("destroy");e.submit();return false}return true})})})});/*]]>*/</script> </div> </div> <script type="text/javascript">/*<![CDATA[*/window.mfrVigLevel="JAUNE";/*]]>*/</script> <div id="p_p_id_infospe_WAR_mf3rpcportlet_"> <!-- Links --> <div id="p_p_id_carte_WAR_mf3rpcportlet_INSTANCE_QPWhHWc4KZ0E_"> <div class="mod-carte-previsions"> <div class="mod-carte-previsions-header"> <div class="mod-carte-previsions-title"> <span class="mod-carte-previsions-corner" id="cornerzone"></span> <h1>Météo-France</h1> <span class="mod-carte-previsions-title-date">Prévisions 11 mai 2014</span> </div> <div class="mod-carte-previsions-form-location"> <form method="post" action="#"> <div class="custom-select-container custom-select-container-style-2 select-region"> <label for="selectLocation" class="hidden">Choisir une région</label> <select class="select-region" name="selectLocation" id="selectLocation"> <option value="false" selected="selected">Choisir une région en Métropole</option> <option data-slug="alsace" data-type="REG_FRANCE" value="REGI42">Alsace</option> <option data-slug="aquitaine" data-type="REG_FRANCE" value="REGI72">Aquitaine</option> <option data-slug="auvergne" data-type="REG_FRANCE" value="REGI83">Auvergne</option> <option data-slug="basse-normandie" data-type="REG_FRANCE" value="REGI25">Basse-Normandie</option> <option data-slug="bourgogne" data-type="REG_FRANCE" value="REGI26">Bourgogne</option> <option data-slug="bretagne" data-type="REG_FRANCE" value="REGI53">Bretagne</option> <option data-slug="centre" data-type="REG_FRANCE" value="REGI24">Centre</option> <option data-slug="champagne-ardenne" data-type="REG_FRANCE" value="REGI21">Champagne-Ardenne</option> <option data-slug="corse" data-type="REG_FRANCE" value="REGI94">Corse</option> <option data-slug="franche-comte" data-type="REG_FRANCE" value="REGI43">Franche-Comté</option> <option data-slug="haute-normandie" data-type="REG_FRANCE" value="REGI23">Haute-Normandie</option> <option data-slug="ile-de-france" data-type="REG_FRANCE" value="REGI11">Île-de-France</option> <option data-slug="languedoc-roussillon" data-type="REG_FRANCE" value="REGI91">Languedoc-Roussillon</option> <option data-slug="limousin" data-type="REG_FRANCE" value="REGI74">Limousin</option> <option data-slug="lorraine" data-type="REG_FRANCE" value="REGI41">Lorraine</option> <option data-slug="midi-pyrenees" data-type="REG_FRANCE" value="REGI73">Midi-Pyrénées</option> <option data-slug="nord-pas-de-calais" data-type="REG_FRANCE" value="REGI31">Nord-Pas-de-Calais</option> <option data-slug="pays-de-la-loire" data-type="REG_FRANCE" value="REGI52">Pays de la Loire</option> <option data-slug="picardie" data-type="REG_FRANCE" value="REGI22">Picardie</option> <option data-slug="poitou-charentes" data-type="REG_FRANCE" value="REGI54">Poitou-Charentes</option> <option data-slug="provence-alpes-cote-dazur" data-type="REG_FRANCE" value="REGI93">Provence-Alpes-Côte d'Azur</option> <option data-slug="rhone-alpes" data-type="REG_FRANCE" value="REGI82">Rhône-Alpes</option> </select> <span aria-hidden="true" class="custom-select"><span><span>Choisir une région en Métropole</span></span></span> </div> <div class='custom-select-container custom-select-container-style-2 select-outremer'> <label for="selectLocation2" class="hidden">Choisir un site outre-mer</label> <select class="select-outremer" name="selectLocation2" id="selectLocation2"> <option value="false" selected="selected">Outre-mer</option> <option data-slug="guadeloupe" data-type="DEPT_FRANCE" value="971">Guadeloupe</option> <option data-slug="guyane" data-type="DEPT_FRANCE" value="973">Guyane</option> <option data-slug="iles-du-nord" data-type="DEPT_FRANCE" value="977-978">Iles du Nord</option> <option data-slug="la-reunion" data-type="DEPT_FRANCE" value="974">La Réunion</option> <option data-slug="martinique" data-type="DEPT_FRANCE" value="972">Martinique</option> <option data-slug="mayotte" data-type="DEPT_FRANCE" value="976">Mayotte</option> <option data-slug="nouvelle-caledonie" data-type="DEPT_FRANCE" value="NOUVELLECAL">Nouvelle-Calédonie</option> <option data-slug="polynesie-francaise" data-type="PAYS" value="POLYNESIE">Polynésie Française</option> </select> <span aria-hidden="true" class="custom-select"><span><span>Outre-mer</span></span></span> </div> </form> </div> <div class="clearer"></div> </div> <div class="mod-carte-previsions-map"> <div class="mod-carte-previsions-options"> <div class="mod-carte-previsions-zap"> <ul class="mod-carte-previsions-dates"> <li> <a class="options-trigger capitalize" href="/previsions-meteo-france/201405110900">Aujourd'hui</a> <ul class="mod-carte-previsions-dates-options"> <li><a class="echeance" href="/previsions-meteo-france/201405110900" data-bypass data-schedule="201405110900">Matin</a></li> <li><a class="echeance" href="/previsions-meteo-france/201405111500" data-bypass data-schedule="201405111500">Après-midi</a></li> <li><a class="echeance" href="/previsions-meteo-france/201405112100" data-bypass data-schedule="201405112100">Soirée</a></li> <li><a class="echeance" href="/previsions-meteo-france/201405120300" data-bypass data-schedule="201405120300">Nuit</a></li> </ul> <a class="options-trigger capitalize" href="/previsions-meteo-france/201405120900">lundi</a> <ul class="mod-carte-previsions-dates-options"> <li><a class="echeance" href="/previsions-meteo-france/201405120900" data-bypass data-schedule="201405120900">Matin</a></li> <li><a class="echeance" href="/previsions-meteo-france/201405121500" data-bypass data-schedule="201405121500">Après-midi</a></li> <li><a class="echeance" href="/previsions-meteo-france/201405122100" data-bypass data-schedule="201405122100">Soirée</a></li> <li><a class="echeance" href="/previsions-meteo-france/201405130000" data-bypass data-schedule="201405130000">Nuit</a></li> </ul> <a class="options-trigger capitalize" href="/previsions-meteo-france/201405130600">mardi</a> <ul class="mod-carte-previsions-dates-options"> <li><a class="echeance" href="/previsions-meteo-france/201405130600" data-bypass data-schedule="201405130600">Matin</a></li> <li><a class="echeance" href="/previsions-meteo-france/201405131200" data-bypass data-schedule="201405131200">Après-midi</a></li> <li><a class="echeance" href="/previsions-meteo-france/201405131800" data-bypass data-schedule="201405131800">Soirée</a></li> <li><a class="echeance" href="/previsions-meteo-france/201405140000" data-bypass data-schedule="201405140000">Nuit</a></li> </ul> <a class="options-trigger capitalize" href="/previsions-meteo-france/201405140600">mercredi</a> <ul class="mod-carte-previsions-dates-options"> <li><a class="echeance" href="/previsions-meteo-france/201405140600" data-bypass data-schedule="201405140600">Matin</a></li> <li><a class="echeance" href="/previsions-meteo-france/201405141200" data-bypass data-schedule="201405141200">Après-midi</a></li> <li><a class="echeance" href="/previsions-meteo-france/201405141800" data-bypass data-schedule="201405141800">Soirée</a></li> <li><a class="echeance" href="/previsions-meteo-france/201405150000" data-bypass data-schedule="201405150000">Nuit</a></li> </ul> <a class="options-trigger capitalize" href="/previsions-meteo-france/201405150600">jeudi</a> <ul class="mod-carte-previsions-dates-options"> <li><a class="echeance" href="/previsions-meteo-france/201405150600" data-bypass data-schedule="201405150600">Matin</a></li> <li><a class="echeance" href="/previsions-meteo-france/201405151200" data-bypass data-schedule="201405151200">Après-midi</a></li> </ul> <a class="options-trigger capitalize" href="/previsions-meteo-france/201405160600">vendredi</a> <ul class="mod-carte-previsions-dates-options"> <li><a class="echeance" href="/previsions-meteo-france/201405160600" data-bypass data-schedule="201405160600">Matin</a></li> <li><a class="echeance" href="/previsions-meteo-france/201405161200" data-bypass data-schedule="201405161200">Après-midi</a></li> </ul> </li> <li> <a class="options-trigger" href="/previsions-meteo-france/201405171200">Tendances des jours suivants</a> </li> </ul> <div class="mod-carte-previsions-map-type"> <a class="temps active" href="#"> <img alt="Carte des températures" title="Carte des températures" src="/mf3-base-theme/images/btn-temp.png"> </a> <a class="vents" href="/previsions-meteo-france/vents"> <img alt="Carte des vents" title="Carte des vents" src="/mf3-base-theme/images/btn-wind.png"> </a> <a class="uvs" href="/previsions-meteo-france/uvs"> <img alt="Carte des UV" title="Carte des UV" src="/mf3-base-theme/images/btn-uv.png"> </a> </div> </div> <div class="mod-carte-previsions-rain"> <form method="post" action="/recherche/resultats" id="searchFormRain" class="form-search-rain"> <h3>Va-t-il pleuvoir<br> dans l’heure ?</h3> <div class="form-row"> <label for="query" class="hidden">Rechercher</label> <input type="text" value="" name="query" id="query" placeholder="Ville, Code postal">
+                    		<input type="hidden" name="facet" value="pluie">
+                    		<input type="submit" value="Ok" title="Lancer la recherche">
+                    	</div>
+                    	<a href="zones-pluie" class="mod-carte-previsions-rain-zones">Zones couvertes</a>
+                    </form>
+					</div>
+				</div>
+	
+				<div class="mod-carte-previsions-pictos">
+					<div>
+						<div class="tableToMap carte carte-pays007">
+                            <img class="mask" usemap="#LIEUX" alt="" src="/mf3-base-theme/images/1pix.png">
+                            <map id="lieux" name="LIEUX">
+                            </map>
+													<div class="pictoMap" style="left: 261px; top: 222px;">
+	<div class="temps" id="REGI54" data-insee="173000">
+    		<a href="/previsions-meteo-france/poitou-charentes/regi54">
+    			<span class="picTemps J_W1_19-N_4">Averses</span>
+			<span class="temper celsiusUnit"><strong>14</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 344px; top: 333px;">
+	<div class="temps" id="REGI73" data-insee="315550">
+    		<a href="/previsions-meteo-france/midi-pyrenees/regi73">
+    			<span class="picTemps J_W1_9-N_3">Pluies éparses</span>
+			<span class="temper celsiusUnit"><strong>14</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 453px; top: 130px;">
+	<div class="temps" id="REGI21" data-insee="521210">
+    		<a href="/previsions-meteo-france/champagne-ardenne/regi21">
+    			<span class="picTemps J_W1_18-N_4">Rares averses</span>
+			<span class="temper celsiusUnit"><strong>12</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 543px; top: 105px;">
+	<div class="temps" id="REGI42" data-insee="674820">
+    		<a href="/previsions-meteo-france/alsace/regi42">
+    			<span class="picTemps J_W1_18-N_6">Rares averses</span>
+			<span class="temper celsiusUnit"><strong>14</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 472px; top: 355px;">
+	<div class="temps" id="REGI93" data-insee="130550">
+    		<a href="/previsions-meteo-france/provence-alpes-cote-dazur/regi93">
+    			<span class="picTemps J_W1_0-N_3">Très nuageux</span>
+			<span class="temper celsiusUnit"><strong>19</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 251px; top: 170px;">
+	<div class="temps" id="REGI52" data-insee="441090">
+    		<a href="/previsions-meteo-france/pays-de-la-loire/regi52">
+    			<span class="picTemps J_W1_18-N_1">Rares averses</span>
+			<span class="temper celsiusUnit"><strong>13</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 585px; top: 403px;">
+	<div class="temps" id="REGI94" data-insee="200040">
+    		<a href="/previsions-meteo-france/corse/regi94">
+    			<span class="picTemps J_W1_0-N_5">Ciel voilé </span>
+			<span class="temper celsiusUnit"><strong>21</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 321px; top: 163px;">
+	<div class="temps" id="REGI24" data-insee="372610">
+    		<a href="/previsions-meteo-france/centre/regi24">
+    			<span class="picTemps J_W1_32-N_4">Averses orageuses</span>
+			<span class="temper celsiusUnit"><strong>13</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 425px; top: 311px;">
+	<div class="temps" id="REGI91" data-insee="300070">
+    		<a href="/previsions-meteo-france/languedoc-roussillon/regi91">
+    			<span class="picTemps J_W1_9-N_3">Pluies éparses</span>
+			<span class="temper celsiusUnit"><strong>18</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 437px; top: 67px;">
+	<div class="temps" id="REGI21" data-insee="083620">
+    		<a href="/previsions-meteo-france/champagne-ardenne/regi21">
+    			<span class="picTemps J_W1_19-N_2">Averses</span>
+			<span class="temper celsiusUnit"><strong>12</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 247px; top: 121px;">
+	<div class="temps" id="REGI53" data-insee="352380">
+    		<a href="/previsions-meteo-france/bretagne/regi53">
+    			<span class="picTemps J_W1_18-N_1">Rares averses</span>
+			<span class="temper celsiusUnit"><strong>13</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 169px; top: 109px;">
+	<div class="temps" id="REGI53" data-insee="290190">
+    		<a href="/previsions-meteo-france/bretagne/regi53">
+    			<span class="picTemps J_W1_18-N_1">Rares averses</span>
+			<span class="temper celsiusUnit"><strong>12</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 235px; top: 338px;">
+	<div class="temps" id="REGI72" data-insee="641220">
+    		<a href="/previsions-meteo-france/aquitaine/regi72">
+    			<span class="picTemps J_W1_9-N_3">Pluies éparses</span>
+			<span class="temper celsiusUnit"><strong>14</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 294px; top: 354px;">
+	<div class="temps" id="REGI73" data-insee="654400">
+    		<a href="/previsions-meteo-france/midi-pyrenees/regi73">
+    			<span class="picTemps J_W1_9-N_3">Pluies éparses</span>
+			<span class="temper celsiusUnit"><strong>13</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 451px; top: 243px;">
+	<div class="temps" id="REGI82" data-insee="691230">
+    		<a href="/previsions-meteo-france/rhone-alpes/regi82">
+    			<span class="picTemps J_W1_9-N_3">Pluies éparses</span>
+			<span class="temper celsiusUnit"><strong>16</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 513px; top: 163px;">
+	<div class="temps" id="REGI43" data-insee="253880">
+    		<a href="/previsions-meteo-france/franche-comte/regi43">
+    			<span class="picTemps J_W1_0-N_2">Éclaircies</span>
+			<span class="temper celsiusUnit"><strong>13</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 453px; top: 188px;">
+	<div class="temps" id="REGI26" data-insee="710760">
+    		<a href="/previsions-meteo-france/bourgogne/regi26">
+    			<span class="picTemps J_W1_0-N_2">Éclaircies</span>
+			<span class="temper celsiusUnit"><strong>14</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 519px; top: 236px;">
+	<div class="temps" id="REGI82" data-insee="730540">
+    		<a href="/previsions-meteo-france/rhone-alpes/regi82">
+    			<span class="picTemps J_W1_10-N_3">Pluie</span>
+			<span class="temper celsiusUnit"><strong>13</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 393px; top: 380px;">
+	<div class="temps" id="REGI91" data-insee="661360">
+    		<a href="/previsions-meteo-france/languedoc-roussillon/regi91">
+    			<span class="picTemps J_W1_0-N_3">Très nuageux</span>
+			<span class="temper celsiusUnit"><strong>19</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 330px; top: 222px;">
+	<div class="temps" id="REGI74" data-insee="870110">
+    		<a href="/previsions-meteo-france/limousin/regi74">
+    			<span class="picTemps J_W1_19-N_2">Averses</span>
+			<span class="temper celsiusUnit"><strong>12</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 373px; top: 105px;">
+	<div class="temps" id="REGI11" data-insee="751010">
+    		<a href="/previsions-meteo-france/ile-de-france/regi11">
+    			<span class="picTemps J_W1_32-N_4">Averses orageuses</span>
+			<span class="temper celsiusUnit"><strong>13</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 380px; top: 62px;">
+	<div class="temps" id="REGI22" data-insee="805610">
+    		<a href="/previsions-meteo-france/picardie/regi22">
+    			<span class="picTemps J_W1_32-N_4">Averses orageuses</span>
+			<span class="temper celsiusUnit"><strong>12</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 539px; top: 330px;">
+	<div class="temps" id="REGI93" data-insee="060880">
+    		<a href="/previsions-meteo-france/provence-alpes-cote-dazur/regi93">
+    			<span class="picTemps J_W1_0-N_5">Ciel voilé </span>
+			<span class="temper celsiusUnit"><strong>20</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 254px; top: 55px;">
+	<div class="temps" id="REGI25" data-insee="501290">
+    		<a href="/previsions-meteo-france/basse-normandie/regi25">
+    			<span class="picTemps J_W1_19-N_2">Averses</span>
+			<span class="temper celsiusUnit"><strong>11</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 307px; top: 103px;">
+	<div class="temps" id="REGI25" data-insee="610060">
+    		<a href="/previsions-meteo-france/basse-normandie/regi25">
+    			<span class="picTemps J_W1_19-N_2">Averses</span>
+			<span class="temper celsiusUnit"><strong>11</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 399px; top: 222px;">
+	<div class="temps" id="REGI83" data-insee="033100">
+    		<a href="/previsions-meteo-france/auvergne/regi83">
+    			<span class="picTemps J_W1_0-N_1">Éclaircies</span>
+			<span class="temper celsiusUnit"><strong>14</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 491px; top: 292px;">
+	<div class="temps" id="REGI93" data-insee="050610">
+    		<a href="/previsions-meteo-france/provence-alpes-cote-dazur/regi93">
+    			<span class="picTemps J_W1_9-N_3">Pluies éparses</span>
+			<span class="temper celsiusUnit"><strong>16</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 373px; top: 277px;">
+	<div class="temps" id="REGI83" data-insee="150140">
+    		<a href="/previsions-meteo-france/auvergne/regi83">
+    			<span class="picTemps J_W1_9-N_3">Pluies éparses</span>
+			<span class="temper celsiusUnit"><strong>10</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 328px; top: 40px;">
+	<div class="temps" id="REGI23" data-insee="760810">
+    		<a href="/previsions-meteo-france/haute-normandie/regi23">
+    			<span class="picTemps J_W1_32-N_4">Averses orageuses</span>
+			<span class="temper celsiusUnit"><strong>12</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 396px; top: 9px;">
+	<div class="temps" id="REGI31" data-insee="593500">
+    		<a href="/previsions-meteo-france/nord-pas-de-calais/regi31">
+    			<span class="picTemps J_W1_32-N_4">Averses orageuses</span>
+			<span class="temper celsiusUnit"><strong>12</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 491px; top: 79px;">
+	<div class="temps" id="REGI41" data-insee="574630">
+    		<a href="/previsions-meteo-france/lorraine/regi41">
+    			<span class="picTemps J_W1_18-N_4">Rares averses</span>
+			<span class="temper celsiusUnit"><strong>13</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 389px; top: 163px;">
+	<div class="temps" id="REGI26" data-insee="580860">
+    		<a href="/previsions-meteo-france/bourgogne/regi26">
+    			<span class="picTemps J_W1_19-N_4">Averses</span>
+			<span class="temper celsiusUnit"><strong>13</strong></span>
+		</a>
+	</div>
+</div>													<div class="pictoMap" style="left: 279px; top: 280px;">
+	<div class="temps" id="REGI72" data-insee="330630">
+    		<a href="/previsions-meteo-france/aquitaine/regi72">
+    			<span class="picTemps J_W1_0-N_1">Éclaircies</span>
+			<span class="temper celsiusUnit"><strong>15</strong></span>
+		</a>
+	</div>
+</div>												</div>
+					</div>
+				</div>
+	
+			<div class="mod-carte-previsions-bar">
+				<span class="mod-carte-previsions-actualisation">Prévisions actualisées à 23h30</span>
+				<span class="mod-carte-previsions-legend">Légende</span>
+			</div>
+			
+	
+					<div class="mod-carte-previsions-map-details-wrapper" style="top: 261px; left: 222px; display: none;" id="information-card-173000">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Poitou-Charentes</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_19-N_4">Averses</span>
+			<div class="map-details-data"> 
+				<strong>Averses</strong>
+				<span class="map-details-temp">minimales : 12°C</span> 
+				<span class="map-details-temp">maximales : 16°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 344px; left: 333px; display: none;" id="information-card-315550">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Midi-Pyrénées</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_9-N_3">Pluies éparses</span>
+			<div class="map-details-data"> 
+				<strong>Pluies éparses</strong>
+				<span class="map-details-temp">minimales : 13°C</span> 
+				<span class="map-details-temp">maximales : 18°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 453px; left: 130px; display: none;" id="information-card-521210">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Champagne-Ardenne</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_18-N_4">Rares averses</span>
+			<div class="map-details-data"> 
+				<strong>Rares averses</strong>
+				<span class="map-details-temp">minimales : 7°C</span> 
+				<span class="map-details-temp">maximales : 14°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 543px; left: 105px; display: none;" id="information-card-674820">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Alsace</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_18-N_6">Rares averses</span>
+			<div class="map-details-data"> 
+				<strong>Rares averses</strong>
+				<span class="map-details-temp">minimales : 10°C</span> 
+				<span class="map-details-temp">maximales : 17°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 472px; left: 355px; display: none;" id="information-card-130550">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Provence-Alpes-Côte d'Azur</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_0-N_3">Très nuageux</span>
+			<div class="map-details-data"> 
+				<strong>Très nuageux</strong>
+				<span class="map-details-temp">minimales : 16°C</span> 
+				<span class="map-details-temp">maximales : 21°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 251px; left: 170px; display: none;" id="information-card-441090">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Pays de la Loire</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_18-N_1">Rares averses</span>
+			<div class="map-details-data"> 
+				<strong>Rares averses</strong>
+				<span class="map-details-temp">minimales : 10°C</span> 
+				<span class="map-details-temp">maximales : 15°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 585px; left: 403px; display: none;" id="information-card-200040">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Corse</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_0-N_5">Ciel voilé </span>
+			<div class="map-details-data"> 
+				<strong>Ciel voilé </strong>
+				<span class="map-details-temp">minimales : 13°C</span> 
+				<span class="map-details-temp">maximales : 23°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 321px; left: 163px; display: none;" id="information-card-372610">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Centre</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_32-N_4">Averses orageuses</span>
+			<div class="map-details-data"> 
+				<strong>Averses orageuses</strong>
+				<span class="map-details-temp">minimales : 9°C</span> 
+				<span class="map-details-temp">maximales : 15°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 425px; left: 311px; display: none;" id="information-card-300070">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Languedoc-Roussillon</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_9-N_3">Pluies éparses</span>
+			<div class="map-details-data"> 
+				<strong>Pluies éparses</strong>
+				<span class="map-details-temp">minimales : 15°C</span> 
+				<span class="map-details-temp">maximales : 21°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 437px; left: 67px; display: none;" id="information-card-083620">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Champagne-Ardenne</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_19-N_2">Averses</span>
+			<div class="map-details-data"> 
+				<strong>Averses</strong>
+				<span class="map-details-temp">minimales : 7°C</span> 
+				<span class="map-details-temp">maximales : 14°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 247px; left: 121px; display: none;" id="information-card-352380">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Bretagne</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_18-N_1">Rares averses</span>
+			<div class="map-details-data"> 
+				<strong>Rares averses</strong>
+				<span class="map-details-temp">minimales : 9°C</span> 
+				<span class="map-details-temp">maximales : 15°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 169px; left: 109px; display: none;" id="information-card-290190">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Bretagne</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_18-N_1">Rares averses</span>
+			<div class="map-details-data"> 
+				<strong>Rares averses</strong>
+				<span class="map-details-temp">minimales : 9°C</span> 
+				<span class="map-details-temp">maximales : 13°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 235px; left: 338px; display: none;" id="information-card-641220">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Aquitaine</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_9-N_3">Pluies éparses</span>
+			<div class="map-details-data"> 
+				<strong>Pluies éparses</strong>
+				<span class="map-details-temp">minimales : 13°C</span> 
+				<span class="map-details-temp">maximales : 17°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 294px; left: 354px; display: none;" id="information-card-654400">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Midi-Pyrénées</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_9-N_3">Pluies éparses</span>
+			<div class="map-details-data"> 
+				<strong>Pluies éparses</strong>
+				<span class="map-details-temp">minimales : 12°C</span> 
+				<span class="map-details-temp">maximales : 16°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 451px; left: 243px; display: none;" id="information-card-691230">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Rhône-Alpes</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_9-N_3">Pluies éparses</span>
+			<div class="map-details-data"> 
+				<strong>Pluies éparses</strong>
+				<span class="map-details-temp">minimales : 12°C</span> 
+				<span class="map-details-temp">maximales : 18°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 513px; left: 163px; display: none;" id="information-card-253880">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Franche-Comté</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_0-N_2">Éclaircies</span>
+			<div class="map-details-data"> 
+				<strong>Éclaircies</strong>
+				<span class="map-details-temp">minimales : 9°C</span> 
+				<span class="map-details-temp">maximales : 15°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 453px; left: 188px; display: none;" id="information-card-710760">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Bourgogne</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_0-N_2">Éclaircies</span>
+			<div class="map-details-data"> 
+				<strong>Éclaircies</strong>
+				<span class="map-details-temp">minimales : 9°C</span> 
+				<span class="map-details-temp">maximales : 17°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 519px; left: 236px; display: none;" id="information-card-730540">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Rhône-Alpes</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_10-N_3">Pluie</span>
+			<div class="map-details-data"> 
+				<strong>Pluie</strong>
+				<span class="map-details-temp">minimales : 10°C</span> 
+				<span class="map-details-temp">maximales : 15°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 393px; left: 380px; display: none;" id="information-card-661360">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Languedoc-Roussillon</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_0-N_3">Très nuageux</span>
+			<div class="map-details-data"> 
+				<strong>Très nuageux</strong>
+				<span class="map-details-temp">minimales : 16°C</span> 
+				<span class="map-details-temp">maximales : 20°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 330px; left: 222px; display: none;" id="information-card-870110">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Limousin</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_19-N_2">Averses</span>
+			<div class="map-details-data"> 
+				<strong>Averses</strong>
+				<span class="map-details-temp">minimales : 9°C</span> 
+				<span class="map-details-temp">maximales : 15°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 373px; left: 105px; display: none;" id="information-card-751010">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Île-de-France</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_32-N_4">Averses orageuses</span>
+			<div class="map-details-data"> 
+				<strong>Averses orageuses</strong>
+				<span class="map-details-temp">minimales : 10°C</span> 
+				<span class="map-details-temp">maximales : 15°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 380px; left: 62px; display: none;" id="information-card-805610">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Picardie</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_32-N_4">Averses orageuses</span>
+			<div class="map-details-data"> 
+				<strong>Averses orageuses</strong>
+				<span class="map-details-temp">minimales : 8°C</span> 
+				<span class="map-details-temp">maximales : 14°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 539px; left: 330px; display: none;" id="information-card-060880">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Provence-Alpes-Côte d'Azur</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_0-N_5">Ciel voilé </span>
+			<div class="map-details-data"> 
+				<strong>Ciel voilé </strong>
+				<span class="map-details-temp">minimales : 15°C</span> 
+				<span class="map-details-temp">maximales : 24°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 254px; left: 55px; display: none;" id="information-card-501290">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Basse-Normandie</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_19-N_2">Averses</span>
+			<div class="map-details-data"> 
+				<strong>Averses</strong>
+				<span class="map-details-temp">minimales : 8°C</span> 
+				<span class="map-details-temp">maximales : 13°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 307px; left: 103px; display: none;" id="information-card-610060">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Basse-Normandie</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_19-N_2">Averses</span>
+			<div class="map-details-data"> 
+				<strong>Averses</strong>
+				<span class="map-details-temp">minimales : 8°C</span> 
+				<span class="map-details-temp">maximales : 13°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 399px; left: 222px; display: none;" id="information-card-033100">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Auvergne</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_0-N_1">Éclaircies</span>
+			<div class="map-details-data"> 
+				<strong>Éclaircies</strong>
+				<span class="map-details-temp">minimales : 9°C</span> 
+				<span class="map-details-temp">maximales : 16°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 491px; left: 292px; display: none;" id="information-card-050610">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Provence-Alpes-Côte d'Azur</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_9-N_3">Pluies éparses</span>
+			<div class="map-details-data"> 
+				<strong>Pluies éparses</strong>
+				<span class="map-details-temp">minimales : 8°C</span> 
+				<span class="map-details-temp">maximales : 19°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 373px; left: 277px; display: none;" id="information-card-150140">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Auvergne</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_9-N_3">Pluies éparses</span>
+			<div class="map-details-data"> 
+				<strong>Pluies éparses</strong>
+				<span class="map-details-temp">minimales : 9°C</span> 
+				<span class="map-details-temp">maximales : 12°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 328px; left: 40px; display: none;" id="information-card-760810">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Haute-Normandie</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_32-N_4">Averses orageuses</span>
+			<div class="map-details-data"> 
+				<strong>Averses orageuses</strong>
+				<span class="map-details-temp">minimales : 9°C</span> 
+				<span class="map-details-temp">maximales : 14°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 396px; left: 9px; display: none;" id="information-card-593500">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Nord-Pas-de-Calais</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_32-N_4">Averses orageuses</span>
+			<div class="map-details-data"> 
+				<strong>Averses orageuses</strong>
+				<span class="map-details-temp">minimales : 9°C</span> 
+				<span class="map-details-temp">maximales : 14°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 491px; left: 79px; display: none;" id="information-card-574630">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Lorraine</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_18-N_4">Rares averses</span>
+			<div class="map-details-data"> 
+				<strong>Rares averses</strong>
+				<span class="map-details-temp">minimales : 8°C</span> 
+				<span class="map-details-temp">maximales : 14°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 389px; left: 163px; display: none;" id="information-card-580860">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Bourgogne</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_19-N_4">Averses</span>
+			<div class="map-details-data"> 
+				<strong>Averses</strong>
+				<span class="map-details-temp">minimales : 8°C</span> 
+				<span class="map-details-temp">maximales : 15°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>					<div class="mod-carte-previsions-map-details-wrapper" style="top: 279px; left: 280px; display: none;" id="information-card-330630">
+	<div class="mod-carte-previsions-map-details">
+	
+		<div class="map-details-details">
+			<h3 class="map-details-title">Aquitaine</h3>
+			<p class="map-details-date">11 mai 2014, Matin</p>
+			<span class="picTemps J_W1_0-N_1">Éclaircies</span>
+			<div class="map-details-data"> 
+				<strong>Éclaircies</strong>
+				<span class="map-details-temp">minimales : 12°C</span> 
+				<span class="map-details-temp">maximales : 17°C</span> 
+			</div>
+		</div>
+		
+		</div>
+</div>			
+		
+		</div>
+        <div class="mod-carte-previsions-autres-previsions"> 
+            <a href="/accueil/previsions-mensuelles" class="first">Prévisions mensuelles</a>
+            <a href="/accueil/previsions-saisonnieres">Prévisions saisonnières</a>
+        </div>
+	</div>
+</div>
+
+<script type="text/javascript">
+    window.mfrpagename = "france.accueil";
+    if(console.time) {
+    	console.time("first ad called");
+    	console.time("first ad loaded");
+    }
+    
+	if(!window.Portlet) {
+		window.Portlet = {};
+	}
+	Portlet.configuration = {	"type": "france",	"baseUrl": "previsions-meteo-france",	"homeUrl": "previsions-meteo-france/metropole",	"baseMap": "/mf3-base-theme/images/contents/meteo/cartespng/PAYS007.jpg",	"dataTransformationData" : {		"674820" : { "nomAffiche" : "Alsace", "slug": "alsace", "id" : "REGI42", "type": "REG_FRANCE" },		"641220" : { "nomAffiche" : "Aquitaine", "slug": "aquitaine", "id" : "REGI72", "type": "REG_FRANCE" },		"330630" : { "nomAffiche" : "Aquitaine", "slug": "aquitaine", "id" : "REGI72", "type": "REG_FRANCE" },		"033100" : { "nomAffiche" : "Auvergne", "slug": "auvergne", "id" : "REGI83", "type": "REG_FRANCE" },		"150140" : { "nomAffiche" : "Auvergne", "slug": "auvergne", "id" : "REGI83", "type": "REG_FRANCE" },		"610010" : { "nomAffiche" : "Basse-Normandie", "slug": "basse-normandie", "id" : "REGI25", "type": "REG_FRANCE" },		"501290" : { "nomAffiche" : "Basse-Normandie", "slug": "basse-normandie", "id" : "REGI25", "type": "REG_FRANCE" },		"610060" : { "nomAffiche" : "Basse-Normandie", "slug": "basse-normandie", "id" : "REGI25", "type": "REG_FRANCE" },		"580860" : { "nomAffiche" : "Bourgogne", "slug": "bourgogne", "id" : "REGI26", "type": "REG_FRANCE" },		"710760" : { "nomAffiche" : "Bourgogne", "slug": "bourgogne", "id" : "REGI26", "type": "REG_FRANCE" },		"352380" : { "nomAffiche" : "Bretagne", "slug": "bretagne", "id" : "REGI53", "type": "REG_FRANCE" },		"290190" : { "nomAffiche" : "Bretagne", "slug": "bretagne", "id" : "REGI53", "type": "REG_FRANCE" },		"372610" : { "nomAffiche" : "Centre", "slug": "centre", "id" : "REGI24", "type": "REG_FRANCE" },		"083620" : { "nomAffiche" : "Champagne-Ardenne", "slug": "champagne-ardenne", "id" : "REGI21", "type": "REG_FRANCE" },		"521210" : { "nomAffiche" : "Champagne-Ardenne", "slug": "champagne-ardenne", "id" : "REGI21", "type": "REG_FRANCE" },		"200040" : { "nomAffiche" : "Corse", "slug": "corse", "id" : "REGI94", "type": "REG_FRANCE" },		"253880" : { "nomAffiche" : "Franche-Comté", "slug": "franche-comte", "id" : "REGI43", "type": "REG_FRANCE" },		"764620" : { "nomAffiche" : "Haute-Normandie", "slug": "haute-normandie", "id" : "REGI23", "type": "REG_FRANCE" },		"760810" : { "nomAffiche" : "Haute-Normandie", "slug": "haute-normandie", "id" : "REGI23", "type": "REG_FRANCE" },		"751010" : { "nomAffiche" : "Ile-de-France", "slug": "ile-de-france", "id" : "REGI11", "type": "REG_FRANCE" },		"300070" : { "nomAffiche" : "Languedoc-Roussillon", "slug": "languedoc-roussillon", "id" : "REGI91", "type": "REG_FRANCE" },		"661360" : { "nomAffiche" : "Languedoc-Roussillon", "slug": "languedoc-roussillon", "id" : "REGI91", "type": "REG_FRANCE" },		"574630" : { "nomAffiche" : "Lorraine", "slug": "lorraine", "id" : "REGI41", "type": "REG_FRANCE" },		"870110" : { "nomAffiche" : "Limousin", "slug": "limousin", "id" : "REGI74", "type": "REG_FRANCE" },		"315550" : { "nomAffiche" : "Midi-Pyrénées", "slug": "midi-pyrenees", "id" : "REGI73", "type": "REG_FRANCE" },		"654400" : { "nomAffiche" : "Midi-Pyrénées", "slug": "midi-pyrenees", "id" : "REGI73", "type": "REG_FRANCE" },		"593500" : { "nomAffiche" : "Nord-Pas-de-Calais", "slug": "nord-pas-de-calais", "id" : "REGI31", "type": "REG_FRANCE" },		"441090" : { "nomAffiche" : "Pays de la Loire", "slug": "pays-de-la-loire", "id" : "REGI52", "type": "REG_FRANCE" },		"805610" : { "nomAffiche" : "Picardie", "slug": "picardie", "id" : "REGI22", "type": "REG_FRANCE" },		"173000" : { "nomAffiche" : "Poitou-Charentes", "slug": "poitou-charentes", "id" : "REGI54", "type": "REG_FRANCE" },		"050610" : { "nomAffiche" : "Provence-Alpes-Côte d'Azur", "slug": "provence-alpes-cote-dazur", "id" : "REGI93", "type": "REG_FRANCE" },		"060880" : { "nomAffiche" : "Provence-Alpes-Côte d'Azur", "slug": "provence-alpes-cote-dazur", "id" : "REGI93", "type": "REG_FRANCE" },		"130550" : { "nomAffiche" : "Provence-Alpes-Côte d'Azur", "slug": "provence-alpes-cote-dazur", "id" : "REGI93", "type": "REG_FRANCE" },		"730540" : { "nomAffiche" : "Rhône-Alpes", "slug": "rhone-alpes", "id" : "REGI82", "type": "REG_FRANCE" },		"691230" : { "nomAffiche" : "Rhône-Alpes", "slug": "rhone-alpes", "id" : "REGI82", "type": "REG_FRANCE" }	},	"schedulers" : "CARTEFRANCEJ3,CARTEFRANCEJSUIVANTS",	"selectLists": [ { "id" : "PAYS007", "list" : { "label": "Outre-mer", "items": [        { "id": "971", "slug": "guadeloupe", "type": "DEPT_FRANCE", "nomAffiche" : "Guadeloupe" },        { "id": "973", "slug": "guyane", "type": "DEPT_FRANCE", "nomAffiche" : "Guyane" },        { "id": "977-978", "slug": "iles-du-nord", "type": "DEPT_FRANCE", "nomAffiche" : "Iles du Nord" },        { "id": "974", "slug": "la-reunion", "type": "DEPT_FRANCE", "nomAffiche" : "La Réunion" },        { "id": "972", "slug": "martinique", "type": "DEPT_FRANCE", "nomAffiche" : "Martinique" },        { "id": "976", "slug": "mayotte", "type": "DEPT_FRANCE", "nomAffiche" : "Mayotte" },        { "id": "NOUVELLECAL", "slug": "nouvelle-caledonie", "type": "DEPT_FRANCE", "nomAffiche" : "Nouvelle-Calédonie" },        { "id": "POLYNESIE", "slug": "polynesie-francaise", "type": "PAYS", "nomAffiche" : "Polynésie Française" }    ] } } ],    "timeZone": "Europe/Paris"};
+
+	mfv3Ready(function() {
+		require(["jquery", "text!/mf3-rpc-portlet/js/datas/zones_PAYS007.json"], function($, zonedata) {
+			var carteElement = $("div.mod-carte-previsions");
+			
+			/* selection de la premiere echeance */
+			var today = carteElement.find("a.options-trigger:first");
+			today.next().slideToggle('fast');
+			var echeance = today.next().children(":first");
+			echeance.addClass("active");
+			echeance.children("a").click(function() { return false; });
+			
+			/* affichage des encarts */
+			var offset = carteElement.find("div.mod-carte-previsions-map").position();
+			var pictosTemps = carteElement.find("div.temps");
+			pictosTemps.bind("mousemove", function(e) {
+				var selectedPicto = $(e.currentTarget); 
+				$("#information-card-" + selectedPicto.data("insee")).css({ position: "fixed", top: (e.clientY + 25), left: (e.clientX - 80) });
+				$("#information-card-" + selectedPicto.data("insee")).show();
+			});
+			pictosTemps.bind("mouseleave", function(e) {
+				var selectedPicto = $(e.currentTarget); 
+				$("#information-card-" + selectedPicto.data("insee")).hide();
+            });
+
+            /* affichage des masks */
+            /* hover sur des area */
+            var zones = $.parseJSON(zonedata);
+            var map = carteElement.find("map");
+            var imgMap = carteElement.find("img[usemap]");
+            $.each(zones, function(index, zone) {
+                map.append('<area shape="' + zone.shape + '" coords="' + zone.zone + '" class="' + zone.id + '" data-slug="' + zone.slug + '" title="' + zone
+                        .label + '" alt="' + zone.label +'" href="/previsions-meteo-france/' + zone.slug + '/' + zone['id'].toLowerCase() + '"/>'); }); var area = carteElement.find("area"); area.mouseover(function(e){ var area = e.currentTarget; var maskImg = "/mf3-base-theme/images/contents/meteo/masks/" + "PAYS007" + "-mask-" + $(area).attr("class") + ".png"; imgMap.attr("src", maskImg); }); area.mouseleave(function(e){ imgMap.attr("src", "/mf3-base-theme/images/1pix.png"); }); /* hover sur des pictos */ var pictosMap = carteElement.find("div.pictoMap"); pictosMap.mouseover(function(e){ var pictoMap = e.currentTarget; var nomArea = $(e.currentTarget).children(".temps").attr("id"); var maskImg = "/mf3-base-theme/images/contents/meteo/masks/" + "PAYS007" + "-mask-" + nomArea + ".png"; imgMap.attr("src", maskImg); }); pictosMap.mouseleave(function(e){ imgMap.attr("src", "/mf3-base-theme/images/1pix.png"); }); /* fin affichage des masks */ /* Custom selects */ carteElement.find("#selectLocation").customSelect(); carteElement.find("#selectLocation2").customSelect(); /* redirection vers la page france depuis les selecteurs */ carteElement.find("#selectLocation, #selectLocation2").change(function() { var select = $(this); var option = select.find("option:selected"); window.location.href = "/previsions-meteo-france/" + option.attr("data-slug") + "/" + option.val().toLowerCase(); }); /* Zone popup */ var zonesColorBoxData = { href: "/mf3-base-theme/js/html/zonescouvertes.html", close: "Fermer", width: "720", scrolling: false, opacity: 0.8, onComplete: function() { $(this).colorbox.resize(); } }; $("a.mod-carte-previsions-rain-zones").click(function(e){ $.colorbox(zonesColorBoxData); return false; }); /* Legend popup */ var legendColorBoxData = { href:"/mf3-base-theme/js/html/legende.html", close:"Fermer", width:"900px", scrolling:false, opacity:0.8, onComplete : function() { $(this).colorbox.resize(); } }; $("span.mod-carte-previsions-legend").click(function() { $.colorbox(legendColorBoxData); return false; }); }); /* Ads */ MfrLoader.render(); /* XITI */ MfrLoader.xitiTag("accueil", "Accueil", true, "", ""); }); </script> <div id="p_p_id_ephemeride_WAR_mf3rpcportlet_"> <div id="ephemeride_WAR_mf3rpcportlet" class="layout-row"> <div class="row-color-1"> <div class="mod-ephemeride"> <h2 class="capitalize">dimanche 11 mai 2014</h2> <span class="mod-ephemeride-saint">Sainte Estelle</span><br> <div class="mod-ephemeride-line mod-ephemeride-line-first"> <img src="/mf3-base-theme/images/contents/ephemeride-jour.png" alt="Soleil" /> <span>Lever&nbsp;: <strong>06h14</strong></span> <span>Coucher&nbsp;: <strong>21h19</strong></span> </div> <div class="mod-ephemeride-line"> <img src="/mf3-base-theme/images/contents/ephemeride-nuit.png" alt="Lune" /> <span>Lever&nbsp;: <strong>17h43</strong></span> <span>Coucher&nbsp;: <strong>04h31</strong></span> </div> </div> <div class="mod-animations"> <div class="mod-animations-wrapper"> <a href="/previsions-meteo-france/animation/radar/france" data-bypass><img src="/mf3-base-theme/images/contents/animation-radar.jpg" alt=""> <span>Animations radar<br> France</span> </a> </div> <div class="mod-animations-wrapper"> <a href="/previsions-meteo-france/animation/satellite/france" data-bypass><img src="/mf3-base-theme/images/contents/animation-satellite.jpg" alt=""> <span>Animations satellite<br> France et Europe</span> </a> </div> </div> </div> </div> </div> <script type="text/javascript">/*<![CDATA[*/mfv3Ready(function(){window.Ephemerides={};Ephemerides.home="mf3-rpc-portlet";require.config({paths:{home:"/mf3-rpc-portlet"}});require(["/mf3-rpc-portlet/js/view/ephemerides-view.js"],function(a){new a({el:".mod-ephemeride"})})});/*]]>*/</script> <div class="journal-content-article" id="article_10154_10192_17901_11.5"> <div class="mod-decouvrir mod-decouvrir-large"> <h2 class="section-title-1"> <span class="tiretvert"> <span class="fondblanc"> À découvrir </span> </span> </h2> <div class="mod-decouvrir-wrapper mod-decouvrir-wrapper-first"> <!-- urlPrefix : http://www.meteofrance.fr --> <a href="http://www.meteofrance.fr/prevoir-le-temps/la-prevision-du-temps/les-etapes-de-prevision"> <img src="/documents/10192/396348/visuel_prevision_temps/3e23b7c3-7a64-42b7-8608-463fc125f64c?t=1381853047716" alt="Les étapes d'une prévision" title="Les étapes d'une prévision" width="211" height="165"/> <span>Les étapes d'une prévision</span> </a> </div> <div class="mod-decouvrir-wrapper"> <!-- urlPrefix : http://www.meteofrance.fr --> <a href="http://www.meteofrance.fr/prevoir-le-temps/phenomenes-meteo/les-giboulees"> <img src="/documents/10192/21101/27700-43.jpg/b86c77c6-42ac-4407-b7e7-30d0f437e430?t=1369732694058" alt="Les giboulées" title="Les giboulées" width="211" height="165"/> <span>Les giboulées</span> </a> </div> <div class="mod-decouvrir-wrapper"> <!-- urlPrefix : http://www.meteofrance.fr --> <a href="http://www.meteofrance.fr/nous-connaitre/activites-et-metiers/les-supercalculateurs-de-meteo-france"> <img src="/documents/10192/4149773/vignette+supercalculateur+bull/" alt="Les supercalculateurs de Météo-France" title="Les supercalculateurs de Météo-France" width="211" height="165"/> <span>Tout savoir sur nos supercalculateurs</span> </a> </div> <div class="clearer"></div> </div> </div> <div class="entry-links"> </div> <div class="journal-content-article" id="article_10154_10180_15469_1.1"> <div class="mod-publiinfos"> <h2 class="section-title-1"> <span class="tiretvert"><span class="fondblanc">Publi information</span></span></h2> <!-- MAJ 23/04/2014 12:34 par SP de D2CDM par MFR PAPY --> <!-- <div id="publiinfos">&nbsp;</div> --> <!-- DEBUT LIGATUS--> <div id="ligatus_ad_mfr_meteofrance"> &nbsp;</div> <script language="javascript" src="http://i.ligatus.com/fr-placements/containers/mfr/meteofrance/tc-site.js"></script><!-- FIN LIGATUS--></div></div> <div class="entry-links"> </div> </div> </div> <div id="column-2" class="aui-w30 portlet-column portlet-column-last"> <div class="portlet-dropzone sidebar portlet-column-content portlet-column-content-last" id="layout-column_column-2"> <div class="mod-3 actus"> <div class="mod-header"> <h2 class="section-title-1"> <span class="tiretvert"><span class="fondblanc">Actualit&eacute;s</span></span></h2> </div> <div class="mod-body"> <ul class="actus-list"> <li> <a class="taglib-icon" data-bypass href="http://www.meteofrance.fr/web/comprendre-la-meteo/actualites?articleId=6061451"> <span class="taglib-text"> Météo-France au Forum Science, Recherche et Société</span> </a> </li> <li> <a class="taglib-icon" data-bypass href="http://www.meteofrance.fr/web/comprendre-la-meteo/actualites?articleId=6479627"> <span class="taglib-text"> Canada : débâcle du fleuve Yukon</span> </a> </li> <li> <a class="taglib-icon" data-bypass href="http://www.meteofrance.fr/web/comprendre-la-meteo/actualites?articleId=6448760"> <span class="taglib-text"> 5e mois d’avril le plus chaud depuis 1900</span> </a> </li> </ul> <div class="more-wrapper"> <a href="http://www.meteofrance.fr/web/comprendre-la-meteo/actualites" class="more">Toutes les actualit&eacute;s</a></div> </div> </div> <div class="journal-content-article" id="article_10154_10180_10876_1.2"> <div class="sidebar-ad"> <h2 class="ad-title"> <span><span>Publicité</span></span></h2> <div id="middlezone"> <noscript><a href="http://mfr.meteofrance.com/adlink/3.0/1307/3736807/0/170/ADTECH;loc=300;" target="_blank"><img src="http://mfr.meteofrance.com/adserv/3.0/1307/3736807/0/170/ADTECH;loc=300;" border="0" width="300" height="250"></a></noscript></div> </div></div> <div class="entry-links"> </div> <div class="journal-content-article" id="article_10154_10180_188173_2.4"> <div class="mod-1 services"> <div class="mod-header"> <h2 class="mod-title"> Nos services aux particuliers<br /> &nbsp;</h2> </div> <div class="mod-body" style="font-color:blue; background-color:white"> <ul class="checked-list"> <li> <a data-bypass="" href="https://particulier.meteofrance.com/certificat-d-intemperies">Le certificat d'intempéries : le document officiel</a></li> <li> <a data-bypass="" href="https://particulier.meteofrance.com/previ-en-ligne">Prévi en ligne : en direct avec un prévisionniste</a></li> <li> <a data-bypass="" href="https://particulier.meteofrance.com/previinfo">Prévi Info : prévisions à 10 jours sur votre département</a></li> <li class="last"> <a data-bypass="" href="https://particulier.meteofrance.com/rose-des-vents">Rose des vents : les statistiques de vent à la station météo la plus proche de chez vous</a><br /> &nbsp;</li> </ul> <div class="btn-wrapper"> <a class="btn-1" data-bypass="" href="https://particulier.meteofrance.com/">Tous nos services aux particuliers</a></div> </div> <!--/mod-body--></div></div> <div class="entry-links"> </div> <div class="journal-content-article" id="article_10154_10180_15458_1.0"> <div class="sidebar-ad"> <h2 class="ad-title"> <span><span>Publicité</span></span></h2> <div id="middlezone1"> &nbsp;</div> <noscript><a href="http://mfr.meteofrance.com/adlink/3.0/1307/3736889/0/170/ADTECH;loc=300;" target="_blank"><img src="http://mfr.meteofrance.com/adserv/3.0/1307/3736889/0/170/ADTECH;loc=300;" border="0" width="300" height="250"></a></noscript></div></div> <div class="entry-links"> </div> <div id="p_p_id_bulletinsEvenementiels_WAR_mf3rpcportlet_"> </div> <div class="journal-content-article" id="article_10154_10180_10840_3.0"> <div class="mod-1 services"> <div class="mod-header"> <h2 class="mod-title"> Nos services aux professionnels</h2> </div> <div class="mod-body" style="font-color:blue; background-color:ffffff"> <ul class="checked-list"> <li> <a data-bypass="" href="https://professionnel.meteofrance.com/suivi-meteo-chantier"><span style="background-color:ffffff;">Le suivi météo de chantier</span></a></li> <li> <a data-bypass="" href="https://professionnel.meteofrance.com/certificat-d-intemperies"><span style="background-color:ffffff;">Le certificat d'intempéries</span></a></li> <li> <a data-bypass="" href="https://professionnel.meteofrance.com/vigimet-flash"><span style="background-color:ffffff;">Vigimet Flash: service d'avertissement sur mesure</span></a></li> <li class="last"> <a data-bypass="" href="https://professionnel.meteofrance.com/previexpert-zoom"><span style="background-color:ffffff;">PreviExpert Zoom: Prévisions horaires par commune</span></a></li> </ul> <div class="btn-wrapper"> <a class="btn-1" data-bypass="" href="https://professionnel.meteofrance.com/"><span style="background-color:ffffff;">Tous nos services aux professionnels</span></a></div> </div> </div></div> <div class="entry-links"> </div> <div class="journal-content-article" id="article_10154_10180_13804_1.2"> <div class="sidebar-ad"> <h2 class="ad-title"> <span><span>Publicité</span></span></h2> <div id="middlezone2"> &nbsp;</div> <noscript><a href="http://mfr.meteofrance.com/adlink/3.0/1307/4373017/0/170/ADTECH;loc=300;" target="_blank"><img src="http://mfr.meteofrance.com/adserv/3.0/1307/4373017/0/170/ADTECH;loc=300;" border="0" width="300" height="250"></a></noscript></div></div> <div class="entry-links"> </div> </div> </div> </div> </div> <form action="#" id="hrefFm" method="post" name="hrefFm"> <span></span> </form> <div style="clear:both"></div> </div> <div class="site"> <footer> <div class="footer"> <section id="breadcrumbs-footer" class="footer-breadcrumbs"> <div class="box-breadcrumbs"> <div class="breadcrumbs"></div> </div> </section> <div class="footer-1"> <div class="footer-col"> <h2 class="footer-title">France</h2> <ul> <li><a data-bypass href="/previsions-meteo-france/metropole">Prévisions Métropole</a></li> <li><a data-bypass href="/previsions-meteo-france/outremer">Prévisions Outremer</a></li> <li><a data-bypass href="/previsions-meteo-france/previsions-pluie">Va-t-il pleuvoir dans l'heure&nbsp;?</a></li> <li><a data-bypass href="/previsions-meteo-france/animation">Animations satellite et radar</a></li> </ul> <h2 class="footer-title">Plages</h2> <ul> <li><a data-bypass href="/previsions-meteo-plages">Prévisions plages</a></li> <li><a data-bypass href="/previsions-meteo-plages/horaires-marees">Horaires des marées</a></li> </ul> </div> <!--/footer-col--> <div class="footer-col"> <h2 class="footer-title">Montagne</h2> <ul> <li><a data-bypass href="/previsions-meteo-montagne">Prévisions montagne</a></li> <li><a data-bypass href="/previsions-meteo-montagne/neige">Enneigement des stations</a></li> <li><a data-bypass href="/previsions-meteo-montagne/bulletin-avalanches">Bulletins neige et avalanches</a></li> </ul> <h2 class="footer-title">Marine</h2> <ul> <li><a data-bypass href="/previsions-meteo-marine">Carte de prévisions interactive</a></li> <li><a data-bypass href="/previsions-meteo-marine/cotes">Prévisions côtières</a></li> <li><a data-bypass href="/previsions-meteo-marine/bulletin">Bulletins marine expertisés</a></li> <li><a data-bypass href="/previsions-meteo-marine/carte-frontologie">Cartes de fronts</a></li> <li><a data-bypass href="/previsions-meteo-marine/horaires-marees">Horaire des marées</a></li> <li><a data-bypass href="/previsions-meteo-marine/definitions">Glossaire</a></li> </ul> </div> <!--/footer-col--> <div class="footer-col"> <h2 class="footer-title">Climat</h2> <ul> <li><a data-bypass href="/climat/france">France métropolitaine</a></li> <li><a data-bypass href="/climat/outremer">Outremer</a></li> <li><a data-bypass href="/climat/monde">Monde</a></li> <li><a data-bypass href="/climat/comparateur">Comparer le climat de deux villes</a></li> <li><a data-bypass href="/climat/planifier-ses-evenement">Planifier un événement avec la météo</a></li> <li><a data-bypass href="/climat/meteo-date-passee">Quel temps faisait-il le...</a></li> </ul> <h2 class="footer-title"><a data-bypass href="/previsions-meteo-monde">Monde</a></h2> <h2 class="footer-title"><a data-bypass href="/trafic-routier">Trafic routier</a></h2> <h2 class="footer-title"><a data-bypass href="/meteo-infos">Météo infos</a></h2> </div> <!--/footer-col--> <div class="footer-col footer-col-last"> <h2 class="footer-title footer-title-2-lines">Autres sites<br> de Météo-France</h2> <div class="autres-sites-mf"> <a data-bypass href="https://donneespubliques.meteofrance.fr/">Données Publiques</a> <p>La plate-forme de mise à disposition des données Publiques de Météo-France.</p> </div> <div class="autres-sites-mf"> <a data-bypass href="http://www.meteofrance.fr/">Météo-France et vous</a> <p>Le site pédagogique de référence sur la science météorologique et le climat.</p> </div> <div class="autres-sites-mf"> <a data-bypass href="http://education.meteofrance.fr/">Éducation</a> <p>Des contenus pédagogiques validés et adaptés aux programmes d'enseignement destinés aux enseignants et scolaires.</p> </div> </div> <!--/footer-col--> </div> <!--/footer-1--> <div class="footer-2" id="footer-2"> <div class="footer-logo-wrapper"> <img src="http://www.meteofrance.com/mf3-base-theme/images/contents/meteo-france.png" class="footer-logo" alt="Météo-France, toujours un temps d'avance"/> </div> <ul class="footer-links"> <li><a data-bypass href="/accessibilite">Accessibilité</a>|</li> <li><a data-bypass href="/mentions-legales">Mentions légales</a>|</li> <li><a data-bypass href="/droits-de-reproduction">Droits de reproduction</a>|</li> <li><a data-bypass href="/aide">Aide</a>|</li> <li><a data-bypass href="/contact">Contact</a>|</li> <li><a data-bypass href="/publicite">Publicité</a>|</li> <li><a data-bypass href="/presse">Presse</a>|</li> <li><a data-bypass href="https://meteofrance.achatpublic.com/">Marchés publics</a>|</li> <li><a data-bypass href="/informations-environnementales">Informations&nbsp;environnementales</a>|</li> <li><a data-bypass href="/plan-du-site">Plan du site</a></li> </ul> </div> <!--/footer-2--> <div class="footer-logos"> <a href="http://www.developpement-durable.gouv.fr/"><img src="http://www.meteofrance.com/mf3-base-theme/images/contents/ministere-ecologie.png" alt="Ministère de l'Écologie, du Développement durable, des transports et du logement"/></a> </div> </div> </footer> </div> <div> <div id="zonehabillage"></div> <div id="zonepresite"></div> <div id="zoneft"></div> <div id="zonepopunder"></div> <div id="zonebrandcontent"></div> <div id="footerzone"> <noscript> <a href="http://mfr.meteofrance.com/adlink/3.0/1307/3736878/0/16/ADTECH;loc=100;" target="_blank"> <img src="http://mfr.meteofrance.com/adserv/3.0/1307/3736878/0/16/ADTECH;loc=100;" border="0" width="1" height="1"> </a> </noscript> </div> <div style="position:absolute;left:50%;width:0px;height:0px;top:50px;z-index:0"> <div style="position:absolute"> <div style="position:relative;left:-739px;" id="zonehabillagegauche"> </div> </div> <div style="position:absolute"> <div style="position:relative;left:-482px;" id="zonehabillagecentre"> </div> </div> <div style="position:absolute"> <div style="position:relative;left:482px;" id="zonehabillagedroite"> </div> </div> </div> <div id="xiti"> <noscript><img width="1" height="1" alt="" src="http://logc279.xiti.com/hit.xiti?s=526745&s2=0&p=&di=&an=&ac="></noscript> </div> <div id="estat"></div> </div> </div> <script src="/mf3-base-theme/js/mfr/mfrloader.js?1.72"></script> <script>/*<![CDATA[*/window.MfrLoader=new MfrLoader("mf3base_WAR_mf3basetheme");window.MfrLoader.eStat();window.MfrLoader.eStatListen();window.mfrDisable=(window.mfrDisable?window.mfrDisable:false);if(!window.mfrDisable){window.MfrLoader.listen()};/*]]>*/</script> <script>/*<![CDATA[*/var require={urlArgs:"1.72",waitSeconds:0};/*]]>*/</script> <script data-main="/mf3-base-theme/js/main" src="/mf3-base-theme/js/lib/require.js"></script> </body> </html>
